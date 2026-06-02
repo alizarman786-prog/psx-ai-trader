@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/idk/AppData/Local/Temp/a83633c6-cf41-478a-98b5-443a8b39c0ee_rubikscube3dsimulator.zip.0ee/28100403_28100092/coding",
+      "program": "c:/Users/idk/AppData/Local/Temp/a83633c6-cf41-478a-98b5-443a8b39c0ee_rubikscube3dsimulator.zip.0ee/28100403_28100092/coding/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
