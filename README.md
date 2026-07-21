@@ -66,11 +66,12 @@ python refresh_data.py
 # 2. Run the scanner to see today's setups
 python scanner.py
 
-# 3. Ask Claude for full analysis and trade plans
+# 3a. Ask Claude for full analysis (requires Anthropic API credits)
 python claude_trader.py
-```
 
----
+# 3b. Ask Groq for full analysis (free alternative)
+python groq_trader.py
+```
 
 ## Watchlist
 
@@ -135,7 +136,8 @@ This tool is for educational and research purposes only. It does not constitute 
 
 ## Built with
 
-- [Claude AI](https://anthropic.com) — trade analysis and reasoning
+- [Claude AI](https://anthropic.com) — trade analysis and reasoning via Anthropic API
+- [Groq](https://groq.com) — free alternative AI analysis using LLaMA 3.3 70B
 - [MCP](https://modelcontextprotocol.io) — tool protocol connecting Claude to market data
 - [yfinance](https://github.com/ranaroussi/yfinance) — PSX historical data
 - [pandas](https://pandas.pydata.org) — data processing
