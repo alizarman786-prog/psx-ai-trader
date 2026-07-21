@@ -136,7 +136,7 @@ Be direct and specific. No fluff."""
             },
             {
                 "role": "user",
-                "content": f"Here is today's PSX scan data:\n\n{scan_text}\n\nGive me full trade plans for the best setups."
+                "content": f"Here is today's PSX scan data:\n\n{scan_text}\n\nSetups are already ranked by score from highest to lowest. Focus on the top ranked setups first. Give me full trade plans for all STRONG and GOOD rated setups, then briefly mention WATCH setups worth monitoring."
             }
         ],
         max_tokens=2000
