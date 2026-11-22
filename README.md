@@ -36,7 +36,7 @@ PSX_MCP/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOURUSERNAME/psx-ai-trader.git
+git clone https://github.com/alizarman786-prog/psx-ai-trader.git
 cd psx-ai-trader
 ```
 
@@ -130,7 +130,7 @@ Scores of 8+ are STRONG, 6+ are GOOD, 4+ are WATCH, below 4 are SKIP.
 
 ## Disclaimer
 
-This tool is for educational and research purposes only. It does not constitute financial advice. Trading involves significant risk — always do your own research and never risk more than you can afford to lose. PSX specific risks include thin liquidity in small caps and T+2 settlement.
+This tool is for educational and research purposes only. It does not constitute financial advice. Trading involves significant risk, always do your own research and never risk more than you can afford to lose. PSX specific risks include thin liquidity in small caps and T+2 settlement.
 
 ---
 
